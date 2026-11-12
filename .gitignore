@@ -1,0 +1,15 @@
+# Entorno virtual
+.venv/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Dataset (30.000 caras + máscaras: demasiado grande para git)
+data/images/
+data/masks/
+
+# Salidas generadas
+modelos/
+*.keras
+*.h5
